@@ -8,11 +8,17 @@ To install the composer dependencies you can use:
 composer install
 ```
 
+Generate file .env and throw this command:
+
+```bash
+php artisan key:generate
+```
+
 ## Command to start mission
 Throw this command for start the mission 
 
 ```bash
-php artisan mars:rover_mission
+php artisan mars:rovers_mission
 ```
 
 ## Tests
